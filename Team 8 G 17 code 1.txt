@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            background-color: beige;
+            width: 500px;
+            height: 500px;
+            margin: 70px auto;
+            padding: 30px 20px;
+            box-shadow: 10px 10px 10px white;
+        }
+
+        .personal {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .button {
+            position: relative;
+            left: 425px;
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <form class="form">
+        <marquee behavior="scrolling" direction="left">
+            <font face="above" size="+3" color="black">SURVEY FORM</font>
+        </marquee>
+        <hr size="8" noshade>
+        <div class="personal">PERSONAL DETAILS</div>
+        <fieldset>
+            <label for="name">Name:</label>
+            <div><input type="text" id="name" placeholder="Enter here"></div>
+            <br>
+            <label for="roll">Roll Number:</label>
+            <div><input type="text" id="roll" placeholder="Enter here" color="yellow+"></div>
+            <br>
+            <label for="course">What did you chose for your B.tech</label>
+            <select id="course">
+                <option value="cs">COMPUTER SCIENCE</option>
+                <option value="m">MECHANICAL</option>
+                <option value="b">BIOTECH</option>
+                <option value="c">CHEMICAL</option>
+                <option value="c">CIVIL</option>
+            </select>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <div><input type="text" id="email" placeholder="Enter here"></div>
+            <br>
+            <label for="age">Age:</label>
+            <div><input type-="number" id="age" placeholder="Enter here"></div>
+
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <div><input type="date" id="dob" placeholder="Enter here"></div>
+
+            <br>
+            <label>Which option best describes you?</label>
+            <div>
+                <input type="radio" id="g1" name="mygender"> Male
+                <input type="radio" id="g2" name="mygender"> Female
+                <input type="radio" id="g3" name="mygender"> Other
+            </div>
+            <br>
+        </fieldset>
+        <br>
+        <div class="button">
+            <button> <a href="s2.html" target="_blank">Next page</button></a>
+        </div>
+
+    </form>
+</body>
+
+</html>

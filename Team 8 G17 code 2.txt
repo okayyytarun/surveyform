@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            background-color: bisque;
+            width: 1000px;
+            height: 1500px;
+            margin: 20px auto;
+            padding: 30px 20px;
+            box-shadow: 10px 10px 10px white;
+        }
+
+        .h1 {
+            text-align: center;
+            color: bisque;
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <h1 class="h1">Survey Questions </h1>
+    <form class="form">
+        <fieldset>
+            <legend><label> How satisfied are you with your job at the company?</label></legend>
+            <div>
+                <input type="radio" name="1">Very Satisfied
+                <br>
+                <input type="radio" name="1">Satisfied
+                <br>
+                <input type="radio" name="1">Neutral
+                <br>
+                <input type="radio" name="1">Unsatisfied
+                <br>
+                <input type="radio" name="1">Very Unsatisfied
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>How much do you feel your work contributes to the company's goals?</label></legend>
+            <div>
+                <input type="radio" name="2">Greatly
+                <br>
+                <input type="radio" name="2">Somewhat
+                <br>
+                <input type="radio" name="2">Neutral
+                <br>
+                <input type="radio" name="2">Not much
+                <br>
+                <input type="radio" name="2">Not at all
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>How would you rate the communication and support from your immediate supervisor or
+                    manager?</label></legend>
+            <div>
+                <input type="radio" name="3">Excellent
+                <br>
+                <input type="radio" name="1">Good
+                <br>
+                <input type="radio" name="3">Average
+                <br>
+                <input type="radio" name="3">Poor
+                <br>
+                <input type="radio" name="3">Very Poor
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>How clear are the company's goals and objectives</label></legend>
+            <div>
+                <input type="radio" name="4">Extremely Clear
+                <br>
+                <input type="radio" name="4">Clear
+                <br>
+                <input type="radio" name="4">Neutral
+                <br>
+                <input type="radio" name="4">Unclear
+                <br>
+                <input type="radio" name="4">Extremely Unclear
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>How would you describe the company culture?</label></legend>
+            <div>
+                <input type="radio" name="5">Supportive and Inclusive
+                <br>
+                <input type="radio" name="5">Competitive and Goal-Oriented
+                <br>
+                <input type="radio" name="5">Traditional and Hierarchical
+                <br>
+                <input type="radio" name="5">Chaotic and Unclear
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>Do you feel valued as an employee at the company?</label></legend>
+            <div>
+                <input type="radio" name="6">Yes, Definitely
+                <br>
+                <input type="radio" name="6">Yes, Somewhat
+                <br>
+                <input type="radio" name="6">Neutral
+                <br>
+                <input type="radio" name="6">No, Somewhat
+                <br>
+                <input type="radio" name="6">No, Definitely Not
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>How satisfied are you with your current level of compensation?</label></legend>
+            <div>
+                <input type="radio" name="7">Very Satisfied
+                <br>
+                <input type="radio" name="7">Satisfied
+                <br>
+                <input type="radio" name="7">Neutral
+                <br>
+                <input type="radio" name="7">Unsatisfied
+                <br>
+                <input type="radio" name="7">Very Unsatisfied
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>Do you feel that the company supports work-life balance?</label></legend>
+            <div>
+                <input type="radio" name="8">Yes, Definitely
+                <br>
+                <input type="radio" name="8">Yes, Somewhat
+                <br>
+                <input type="radio" name="8">Neutral
+                <br>
+                <input type="radio" name="8">No, Somewhat
+                <br>
+                <input type="radio" name="8">No, Definitely Not
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>How comfortable are you with the workload and demands of your job?</label></legend>
+            <div>
+                <input type="radio" name="9">Very Comfortable
+                <br>
+                <input type="radio" name="9">Comfortable
+                <br>
+                <input type="radio" name="9">Neutral
+                <br>
+                <input type="radio" name="9">Uncomfortable
+                <br>
+                <input type="radio" name="9">Very Uncomfortable
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label>How would you rate the cleanliness and maintenance of your workspace?</label></legend>
+            <div>
+                <input type="radio" name="10">Excellent
+                <br>
+                <input type="radio" name="10">Good
+                <br>
+                <input type="radio" name="10">Average
+                <br>
+                <input type="radio" name="10">Poor
+                <br>
+                <input type="radio" name="10">Very Poor
+        </fieldset>
+        <br>
+        <button><a href="s3.html" target="_blank">Submit Now</a></button>
+    </form>
+</body>
+
+</html>
